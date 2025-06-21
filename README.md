@@ -67,6 +67,87 @@ cd heart-disease-prediction
 
 - **Riya Garg**
 
+---
+
+# Movie Recommendation System (MRS)
+
+This project is a **Movie Recommendation System** built using Python and popular data science libraries. It provides personalized movie recommendations to users based on collaborative filtering and similarity metrics.
+
+## 📌 Project Overview
+
+The Movie Recommendation System (MRS) demonstrates the implementation of a basic content-based filtering method to recommend movies. The system analyzes user preferences and movie metadata to suggest films that align with user interests.
+
+## 🔍 Features
+
+- Content-based filtering using cosine similarity
+- Data preprocessing and cleaning using pandas and NumPy
+- Interactive user input for generating recommendations
+- Uses the TMDB 5000 Movie Dataset
+- Implements feature extraction on genres, keywords, director, and cast
+- Cosine similarity based recommendation logic
+
+## 📁 Dataset
+
+The system uses the following datasets:
+- `tmdb_5000_movies.csv`
+- `tmdb_5000_credits.csv`
+
+These datasets can be downloaded from [Kaggle TMDB 5000 Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Pandas
+- NumPy
+- Scikit-learn
+- NLTK
+- Jupyter Notebook
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following libraries installed:
+
+pip install pandas numpy scikit-learn nltk
+
+🎯 How It Works:
+Preprocess movie metadata to extract relevant features
+
+Combine features into a single "tags" column
+
+Convert textual data into vectors using CountVectorizer
+
+Compute similarity matrix using cosine similarity
+
+Recommend top N similar movies based on user input
+
+📌 Sample Output:
+If the user inputs:
+
+Input movie: Avatar
+
+The system might return:
+
+Recommended movies:
+1. John Carter
+2. Guardians of the Galaxy
+3. Prometheus
+4. ...
+
+🧠 Future Improvements:
+Implement hybrid filtering (collaborative + content-based)
+
+Integrate with a web framework (e.g., Flask or Streamlit)
+
+Improve feature engineering using advanced NLP techniques
+
+
+Feel free to fork this project and contribute!
+
+
+---
+
 
 
 
